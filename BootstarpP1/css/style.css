@@ -1,0 +1,44 @@
+.navbar-toggler .close {
+    display:inline;
+}
+.navbar-toggler.collapsed .close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #fff;
+    opacity: .8;
+}
+body{
+    overflow-x: hidden;
+}
+#showcase {
+    position: relative;
+}
+#intro-heading{
+    background: url(../img/flower-sant.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+
+.dark-overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+
+@media only screen and (max-width: 760px) {
+    .imgg{
+        height: 100%;
+       }
+  }
+  @media only screen and (min-width: 761px) {
+    .imgg{
+        width: 100%;
+       }
+  }
