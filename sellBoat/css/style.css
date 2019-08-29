@@ -1,0 +1,124 @@
+
+/* Nav */
+.navbar{
+  transition: 750ms ease;
+ background: transparent !important;
+}
+
+.navbar.scrolled{
+ background: #10caca !important;
+  
+}
+
+
+/* Hamburger icon */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  /* Showcase video */
+.video-fluid {
+    /* width: 100%;
+    overflow:hidden;
+    display:block; */
+    width: 100vw;
+    /* Could also use width: 100%; */
+    height: 100vh;
+    object-fit: cover;
+    /* Change position to absolute if you don't want it to take up the whole page */
+    left: 0px;
+    top: 0px;
+    /* z-index: -1; */
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.show-btn{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .fas{
+ color: #fff;
+  }
+ /* Our products */
+  #products{
+    padding-top: 8%;
+  }
+  .boat2{
+      height: 15rem;
+  }
+  .navimage{
+      margin-top: -1em;
+      margin-right: -1em;
+  }
+  body{
+      overflow-x:hidden;
+  }
+
+
+  /* Testimonial */
+
+.shadow{
+    -webkit-box-shadow: 17px 22px 5px 0 rgba(89, 86, 89 ,1);
+    box-shadow: 5px 8px 5px 0 rgba(89, 86, 89 ,1);
+}
+#testimonials img{
+    width: 150px;
+    height: 150px;
+}
+.carousel-indicators li{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  padding: 0;
+  background: #10caca;
+
+} 
+ol{
+  margin-bottom: -2rem;
+}
+.carousel-control-next, .carousel-control-prev {
+  bottom: 100%;
+  background: #10caca;
+}
+/* Contact */
+.form-control{
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+}
+.form-group input, .form-group textarea{
+  width: 80%;
+}
+label{
+  margin-left: 10%;
+}
+.btn-circle{
+  border-radius: 50%;
+}
+.btn, .form-header{
+  background: #10caca;
+}
+
+#main-footer{
+  background: #10caca;
+}
