@@ -1,0 +1,30 @@
+.line{
+    background-color: black;
+    height: 10px;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("../img/kids-glitch.png");
+  
+    /* Set a specific height */
+    height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../img/Kids-blackwhite.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
